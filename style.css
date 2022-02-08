@@ -1,6 +1,4 @@
-﻿body
-{
-	.row 
+﻿.row 
 {
   display: flex;
 }
@@ -43,4 +41,3 @@
 		
 	}
 	
-}
