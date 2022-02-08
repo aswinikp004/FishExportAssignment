@@ -1,0 +1,46 @@
+﻿body
+{
+	.row 
+{
+  display: flex;
+}
+
+.column 
+{
+  flex: 50%;
+}
+.frameimg
+{
+	margin:55px 80px;
+}
+
+.welfontcolor
+{
+	color:#03bb85
+}
+
+.inputcolor
+{
+	color:grey;
+}
+
+.hl 
+	{
+     border-top: 1px solid #00C0F3;
+	 width:350px;
+    }
+
+	.forpass
+	{
+		margin-left:130px;
+		
+	}
+	.loginbtn
+	{
+		margin: 50px 1px;
+		background-color:#00BFFF;
+		color:white;
+		
+	}
+	
+}
