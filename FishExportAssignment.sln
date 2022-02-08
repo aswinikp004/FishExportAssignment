@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD3DB540-A717-4E86-AAD5-890F9BCE6174}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\fishimage.png = ..\..\..\Downloads\fishimage.png
+		..\..\..\Downloads\Frame.png = ..\..\..\Downloads\Frame.png
 		index.html = index.html
 		style.css = style.css
 	EndProjectSection
