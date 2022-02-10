@@ -5,15 +5,14 @@
     <meta charset="utf-8" />
     <title>Fish Export</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+   <script src="script.js"></script>
       
 </head>
 <body>
-
- 
-
-  
+<form onsubmit="detailsform()">
   <div class="row">
-        <div class="column">
+
+<div class="column">
             <img src="images\fishimage.png" width=600px height=580px />
         </div>
         <div class="column frameimg">
@@ -23,11 +22,11 @@
            <h4 class="welfontcolor">Welcome to oceanus</h4>
 
           
-           <input  class"textbox" type="text" placeholder="Email" name="email">
+           <input  class"textbox" type="email" placeholder="Email" id="email" name="mail">
 
           </br>
           </br>
-           <input  class"textbox" type="text" placeholder="Password"  name="password">
+           <input  class"textbox" type="password" placeholder="Password" id="pass"  name="password">
 
            </br>
            </br>
@@ -35,18 +34,11 @@
            <label >remember me</label>
            <a class="forpass"href="" > Forget password </a>
            </br>
-           <button class="loginbtn">LOGIN</button>
-
-           
+           <button class="loginbtn">LOGIN</button>  
         </div>
     </div>
-
-
+  </form>
 </body>
 </html>
 
-<!--
- <p class="inputcolor">email</p>
-  <p class="inputcolor">password</p>
--->
 
